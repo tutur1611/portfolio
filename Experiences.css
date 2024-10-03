@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  padding-left: 80px; 
+  overflow: hidden;
+  background-color: #333;
+ }
+
+  header {
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header h1 {
+    color: aqua;
+    font-size: 50px;
+  }
+
+  h1, h2, h4 {
+      color: 
+      black;
+  }
+  
+  #accueil, #parcours, #Experience, #Competences, #projets, #leBTS {
+      padding: 20px;
+  }
+  
+  
+  .nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 80px; 
+    height: 100%; 
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: flex-start;
+    transition: width 0.3s; 
+    z-index: 1000;
+    padding-top: 0.5rem;
+    padding-right: 0.9rem;
+    padding-left: 0.5rem; 
+  }
+  
+  .nav:hover {
+    width: 250px; 
+  }
+  
+  .nav div {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .nav a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: background 0.3s, color 0.3s;
+    width: 100%; 
+    height: 60px; 
+    padding: 0.5rem;
+    box-sizing: border-box; 
+  }
+  
+  .nav a:hover {
+    background-color: #555;
+  }
+  
+  .nav img.icone {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+  }
+  
+  .nav:hover img.icone {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .nav a span {
+    display: none;
+    font-size: 1.2rem;
+    color: aqua;
+  }
+  
+  
+  .nav:hover a span {
+    display: inline-block;
+  }
+
+  .nav .NavExperience {
+    background-color: #555;
+    border: #555;
+    border-radius: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    width: 1000px;
+    height: 600px;
+    margin-left: 200px;
+    justify-content: space-between; 
+  }
+
+  .Professionnel {
+    border: 3px solid #ff0000;
+    height: 300px;
+    width: 45%; 
+    box-sizing: border-box; 
+  }
+
+  .stages {
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    height: 300px; 
+    width: 45%; 
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    box-sizing: border-box; 
+  }
