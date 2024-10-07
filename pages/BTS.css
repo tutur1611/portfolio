@@ -8,9 +8,9 @@ body {
   font-family: Arial, sans-serif;
   line-height: 2;
   padding-left: 80px; 
-  overflow: hidden;
-  background-color: #333;
-  color: rgb(244, 85, 112);
+  background-image: url('../images/background.jpg') ;
+  background-repeat: no-repeat;
+  background-size: 118%;
  }
 
 header {
@@ -103,13 +103,59 @@ header {
   .nav:hover a span {
     display: inline-block;
   }
-  
-.bts {
-  margin-top: 200px;
-}
 
 .nav .NavBTS {
   background-color: #555;
   border: #555;
   border-radius: 10px;
+}
+
+/*==================================================================================================================================================*/
+
+.container {
+  margin-top: 5.15%;
+  padding: 10px;
+}
+
+.top {
+  padding-left: 26%;
+  padding-right: 26%;
+}
+
+.titre {
+  border: solid black 3px;
+  background-color: #3b3b3b;
+  text-decoration: underline aqua;
+  padding: 5px;
+}
+
+.titre h1 {
+  color: aqua;
+}
+
+.bott {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+.slam {
+  border: solid black 3px;
+  height: 90%;
+  width: 45%;
+  padding: 10px;
+  background-color: #3b3b3b;
+  border: solid black 3px;
+  color: aqua;
+}
+
+.sisr {
+  border: solid black 3px;
+  height: 90%;
+  width: 45%;
+  padding: 10px;
+  background-color: #3b3b3b;
+  border: solid black 3px;
+  color: aqua;
 }

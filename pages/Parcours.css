@@ -5,129 +5,104 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 2;
-  padding-left: 80px; 
-  overflow: hidden;
-  background-color: #333;
- }
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 2;
+padding-left: 80px; 
+background-image: url('../images/background.jpg') ;
+background-repeat: no-repeat;
+background-size: 118%;
+}
 
+/*=====================================header========================================================================*/
 header {
-    background-color: #333;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  header h1 {
-    color: aqua;
-    font-size: 50px;
-  }
-  h1, h2, h4 {
-      color: #000000;
-  }
-  
-  #accueil, #parcours, #Experience, #Competences, #projets, #leBTS {
-      padding: 20px;
-  }
-  
-  .nav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 80px; 
-    height: 100%; 
-    background-color: #333;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-    align-items: flex-start;
-    transition: width 0.3s; 
-    z-index: 1000;
-    padding-top: 1rem;
-    padding-left: 0.5rem; 
-    padding-right: 0.9rem;
-  }
-  
-  .nav:hover {
-    width: 250px; 
-  }
-  
-  .nav div {
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    height: 60px;
-  }
-  
-  .nav a {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5rem;
-    transition: background 0.3s, color 0.3s;
-    width: 100%; 
-    height: 60px; 
-    padding: 0.5rem;
-    box-sizing: border-box; 
-  }
-  
-  .nav a:hover {
-    background-color: #555;
-  }
-  
-  .nav img.icone {
-    width: 40px;
-    height: 40px;
-    margin-right: 1rem;
-  }
-  
-  .nav:hover img.icone {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .nav a span {
-    display: none;
-    font-size: 1.2rem;
-    color: aqua;
-  }
-  
-  .nav:hover a span {
-    display: inline-block;
-  }
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
 
-  .contenue {
-    background-color: rgb(82, 82, 82  );
-    border-radius: 10px;
-    margin-top: 150px;
-    margin-left: 350px;
-    margin-right: 200px;
-    height: auto;
-    width: auto;
-    color: rgb(0, 0, 0);
-    padding: 10px;
- }
-  
- .contenue a {
-  text-decoration: underline;
-  text-decoration-color: rgb(0, 0, 0);
-  color: black;
- }
+header h1 {
+  color: aqua;
+  font-size: 50px;
+}
+h1, h2, h4 {
+    color: #000000;
+}
 
- .contenue a:hover {
-  text-decoration-color: aqua;
- }
+#accueil, #parcours, #Experience, #Competences, #projets, #leBTS {
+    padding: 20px;
+}
+/*=====================================NAV============================================================================*/
+.nav {
+  border: solid aqua;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 80px; 
+  height: 100%; 
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: flex-start;
+  transition: width 0.3s; 
+  z-index: 1000;
+  padding-top: 1rem;
+  padding-left: 0.5rem; 
+  padding-right: 0.9rem;
+}
 
-.bac {
-  height: auto;
-  width: auto;
-  bottom: auto;
+.nav:hover {
+  width: 250px; 
+}
+
+.nav div {
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.nav a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: background 0.3s, color 0.3s;
+  width: 100%; 
+  height: 60px; 
+  padding: 0.5rem;
+  box-sizing: border-box; 
+}
+
+.nav a:hover {
+  background-color: #555;
+}
+
+.nav img.icone {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.nav:hover img.icone {
+  width: 50px;
+  height: 50px;
+}
+
+.nav a span {
+  display: none;
+  font-size: 1.2rem;
+  color: aqua;
+}
+
+.nav:hover a span {
+  display: inline-block;
 }
 
 .nav .NavParcours {
@@ -135,3 +110,39 @@ header {
   border: #555;
   border-radius: 10px;
 }
+
+/*=====================================page======================================================================================================================*/
+
+.container {
+  background-color: #505050;
+  color: aqua;
+  margin-top: 10%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  border-radius: 10px;
+  width: 95%;
+  height: 120vh;
+  padding: 10px;
+}
+
+.container a {
+  text-decoration: underline;
+  color: aqua;
+  text-decoration-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+.container a:hover {
+  text-decoration-color: aqua;
+}
+
+.parcour{
+border: solid aqua;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+padding: 1%;
+}
+
+

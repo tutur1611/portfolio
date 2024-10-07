@@ -9,53 +9,11 @@ body {
   font-size: 20px;
   line-height: 2;
   padding-left: 80px; 
-  overflow: hidden;
-  background-color: #333;
+  background-image: url('../images/background.jpg') ;
+  background-repeat: no-repeat;
+  background-size: 118%;
  }
 
-
-.profileContainer  {
-  font-size: larger;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.profileContainer .infoboxDroite .infoboxGauche {
-  padding: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.photoProfile {
-  width: 32%;
-  height: 30%;
-  border-radius: 50%;
-  margin-top: 8%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.infoboxGauche {
-  width: 1500px;
-  margin-right: 5%;
-  margin-top: 10%;
-  margin-left: 5%;
-  background-color: rgb(82, 82, 82);
-  color: rgb(0, 0, 0);
-  border-radius: 9px;
-  padding: 3px;
-}
-
-.infoboxDroite {
-  width: 1500px;
-  margin-right: 5%;
-  margin-top: 10%;
-  background-color: rgb(82, 82, 82);
-  border-radius: 9px;
-  color: rgb(0, 0, 0);
-  padding: 3px;
-}
 
 header {
   background-color: #333;
@@ -154,3 +112,37 @@ h1, h2, h4 {
   border-radius: 10px;
 }
 
+/*=======================================================================================================================================================*/
+
+
+.container {
+  margin-top: 7%;
+  padding: 10px;
+  display: flex;
+}
+
+.photoProfile {
+  border: solid black 5px;
+  width: 28%;
+  height: 28%;
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.infoboxGauche {
+  padding: 10px;
+  padding-top: 3%;
+  background-color: #3b3b3b;
+  border: solid black 3px;
+  color: aqua;
+}
+
+.infoboxDroite {
+  padding: 10px;
+  padding-top: 3%;
+  background-color: #3b3b3b;
+  border: solid black 3px;
+  color: aqua;
+}
