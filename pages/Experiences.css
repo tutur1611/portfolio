@@ -114,38 +114,40 @@
   }
  /*===============================================================================================================================================*/
   .container {
+    border: solid black 3px;
     display: flex;
     flex-direction: row;
-    background-color: #3b3b3b;
+    background-color: #595959;
     width: 90%;
     margin-left: 5%;
     margin-top: 5%; ;
     justify-content: space-between; 
     padding: 1%;
+    border-radius:5px ;
   }
 
 
   .Professionnel {
+    border: solid aqua 3px;
     display: flex;
     flex-direction: column;
-    border: 3px solid #ff0000;
-    height: 70vh; 
-    width: 45%; 
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    box-sizing: border-box;  
-    color: aqua;
-  }
-
-  .stages {
-    display: flex;
-    flex-direction: column;
-    border: 3px solid #ff0000;
-    justify-content: space-between;
     height: 70vh; 
     width: 45%; 
     color: rgb(0, 0, 0);
     padding: 10px;
     box-sizing: border-box; 
-    color: aqua;
+    border-radius:5px ; 
+  }
+
+  .stages {
+    border: solid aqua 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh; 
+    width: 45%; 
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius:5px ; 
   }

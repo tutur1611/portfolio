@@ -11,7 +11,8 @@ body {
   padding-left: 80px; 
   background-image: url('../images/background.jpg') ;
   background-repeat: no-repeat;
-  background-size: 118%;
+  background-size: 100vw;
+  overflow-x: hidden;
  }
 
 
@@ -116,7 +117,9 @@ h1, h2, h4 {
 
 
 .container {
-  margin-top: 7%;
+  margin-top: 10%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   padding: 10px;
   display: flex;
 }
@@ -129,20 +132,26 @@ h1, h2, h4 {
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
+  width: 25%;
 }
 
 .infoboxGauche {
-  padding: 10px;
+  padding: 12.5px;
   padding-top: 3%;
-  background-color: #3b3b3b;
+  background-color: #595959;
   border: solid black 3px;
-  color: aqua;
+  border-radius:5px ;
+  width: 40%;
 }
 
 .infoboxDroite {
   padding: 10px;
   padding-top: 3%;
-  background-color: #3b3b3b;
+  background-color: #595959;
   border: solid black 3px;
-  color: aqua;
+  border-radius:5px ;
+  width: 42.5%;
 }
+
+/*=====================================================================================================================================================================*/ 
+

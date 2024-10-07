@@ -38,7 +38,7 @@ h1, h2, h4 {
 }
 /*=====================================NAV============================================================================*/
 .nav {
-  border: solid aqua;
+
   position: fixed;
   left: 0;
   top: 0;
@@ -114,8 +114,8 @@ h1, h2, h4 {
 /*=====================================page======================================================================================================================*/
 
 .container {
-  background-color: #505050;
-  color: aqua;
+  border: solid black 3px;
+  background-color: #595959;
   margin-top: 10%;
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -127,7 +127,6 @@ h1, h2, h4 {
 
 .container a {
   text-decoration: underline;
-  color: aqua;
   text-decoration-color: rgb(0, 0, 0);
   color: rgb(0, 0, 0);
 }
@@ -143,6 +142,7 @@ flex-direction: column;
 justify-content: space-between;
 height: 100%;
 padding: 1%;
+border-radius:5px ;
 }
 
 
