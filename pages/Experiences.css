@@ -151,3 +151,129 @@
     box-sizing: border-box;
     border-radius:5px ; 
   }
+
+  @media (max-width: 800px){
+    body{
+      overflow-x: hidden;
+      left: 0;
+      padding: 0;
+      width: 100vw;
+    }
+    .nav{
+      width: 8%;
+      padding: 1px;
+    }
+  
+    .nav img.icone{
+      width: 90%;
+    }
+  
+    header{
+      left: 0;
+      width: 100vw;
+      height: 10%;
+    }
+  
+    header h1{
+      font-size: 30px;
+    }
+  
+    .container{
+      margin-left: 9%;
+      width: 90%;
+      height: auto;
+      margin-bottom: 3%;
+    }
+
+    .Professionnel{
+      height: auto;
+    }
+
+    .stages{
+      height: auto;
+    }
+  }
+  
+  @media (min-width:800px) and (max-width:1000px) {
+    body{
+      overflow-x: hidden;
+      left: 0;
+      padding: 0;
+      width: 100vw;
+    }
+  
+    header{
+      left: 0;
+      height: 10%;
+    }
+  
+    header h1{
+      font-size: 30px;
+    }
+  
+    .nav{
+      width: 8%;
+      padding: 1px;
+    }
+  
+    .nav img.icone{
+      width: 90%;
+    }
+  
+    .container{
+      margin-left: 9%;
+      width: 90%;
+      height: auto;
+      margin-bottom: 3%;
+    }
+    .Professionnel{
+      height: auto;
+    }
+
+    .stages{
+      height: auto;
+    }
+
+  }
+  
+  @media (min-width:1000px) and (max-width:2000px) {
+    body{
+      overflow-x: hidden;
+      left: 0;
+      padding: 0;
+      width: 100vw;
+    }
+  
+    header{
+      left: 0;
+      height: 10%;
+    }
+  
+    header h1{
+      font-size: 30px;
+    }
+  
+    .nav{
+      width: 80px;
+      padding: 1px;
+    }
+  
+    .nav img.icone{
+      width: 90%;
+    }
+  
+    .container{
+      margin-left: 9%;
+      width: 90%;
+      height: auto;
+      margin-bottom: 3%;
+    }
+
+    .Professionnel{
+      height: auto;
+    }
+
+    .stages{
+      height: auto;
+    }
+  }
